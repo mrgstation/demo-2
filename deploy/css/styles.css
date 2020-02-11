@@ -321,12 +321,16 @@ ul {
   ul li {
     list-style: none; }
 
+.section-content {
+  padding: 70px 30px 90px 90px; }
+
 /* =============
     Typography
 ============= */
 h1, h2, h3, h4, h5, p {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Barlow', sans-serif; }
 
 /* =============
     Buttons
@@ -352,6 +356,21 @@ textarea {
 /* =============
     Header
 ============= */
+#intro {
+  background-color: #000; }
+  #intro h1 {
+    padding-bottom: 20px;
+    color: #fff; }
+  #intro p {
+    color: #fff; }
+
 /* =============
     Footer
 ============= */
+#placeholder {
+  height: 600px;
+  width: 900px;
+  font-family: 'Barlow', sans-serif; }
+  #placeholder h1 {
+    background-color: #000;
+    color: #fff; }
